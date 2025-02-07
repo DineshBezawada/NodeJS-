@@ -14,3 +14,4 @@ calculateSum(10,50);
 calculateMultiply(10,50);
 
 console.log("GIT Message");
+console.log("My USer1 Code Snippet");
