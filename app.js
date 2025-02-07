@@ -13,3 +13,4 @@ console.log( globalThis === global );
 calculateSum(10,50);
 calculateMultiply(10,50);
 
+console.log("GIT Message");
