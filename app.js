@@ -1,6 +1,7 @@
 require('./xyz');
 // const {text,calculateSum} = require('./calculate/sum');
 // import {calculateSum} from "./sum.js"
+const data = require('./calculate/data.json');
 
 const {calculateSum, calculateMultiply} = require("./calculate");
 
@@ -13,5 +14,5 @@ console.log( globalThis === global );
 calculateSum(10,50);
 calculateMultiply(10,50);
 
-console.log("GIT Message");
-console.log("My USer1 Code Snippet");
+console.log(data);
+
